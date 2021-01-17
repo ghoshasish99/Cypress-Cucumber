@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.4140" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-12-08T16:28:04" tests="0" file="cypress\integration\Register.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Registration" timestamp="2020-12-08T16:28:04" tests="1" time="16.4140" failures="0">
+    <testcase name="Registration Register to Parabank" time="16.4140" classname="Register to Parabank">
+    </testcase>
+  </testsuite>
+</testsuites>

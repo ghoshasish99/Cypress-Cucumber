@@ -1,0 +1,13 @@
+{
+        "env": {
+          "url": "http://awswrkshpalb-1570520390.us-west-2.elb.amazonaws.com:3000/cts-shop/login"
+        },        
+       "testFiles" : [
+         "**/*.feature"
+       ],
+       "reporter": "mocha-junit-reporter",
+        "reporterOptions": {
+          "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+          "testsuitesTitle": false
+        }
+}
