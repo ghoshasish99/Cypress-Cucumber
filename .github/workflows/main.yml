@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 12
       - name: Install dependencies and run tests
-      - run: npm install && npm test
+        run: npm install && npm test
         
       - uses: actions/upload-artifact@v2
         if: ${{ always() }}
