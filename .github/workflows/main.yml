@@ -1,8 +1,11 @@
 name: Cypress-Cucumber
 
 on:
-  release:
-    types: [created]
+  
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   build:
@@ -19,4 +22,4 @@ jobs:
         if: ${{ always() }}
         with:
           name: test-artifacts
-          path: cypress\reports\junit\*.xml
+          path: cypress/reports/junit/*.xml
